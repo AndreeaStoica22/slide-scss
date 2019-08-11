@@ -1,0 +1,125 @@
+body {
+  background-color: #333;
+}
+
+#preloader {
+  width: 200px;
+  height: 200px;
+  background-color: #262626;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+#preloader div {
+  width: 36px;
+  height: 36px;
+  background-color: green;
+  border: 2px solid #4d4d4d;
+  float: left;
+}
+
+#preloader div:nth-child(n) {
+  -webkit-animation: border-animation 0.8135s infinite;
+          animation: border-animation 0.8135s infinite;
+}
+
+#preloader div:nth-child(n) {
+  -webkit-animation: border-animation 0.52258s infinite;
+          animation: border-animation 0.52258s infinite;
+}
+
+#preloader div:nth-child(n) {
+  -webkit-animation: border-animation 0.37065s infinite;
+          animation: border-animation 0.37065s infinite;
+}
+
+#preloader div:nth-child(n) {
+  -webkit-animation: border-animation 0.33158s infinite;
+          animation: border-animation 0.33158s infinite;
+}
+
+#preloader div:nth-child(n) {
+  -webkit-animation: border-animation 0.35723s infinite;
+          animation: border-animation 0.35723s infinite;
+}
+
+@-webkit-keyframes border-animation {
+  0% {
+    border-top-color: gray;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    background-color: transparent;
+  }
+  25% {
+    border-top-color: transparent;
+    border-right-color: gray;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    background-color: green;
+  }
+  50% {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: gray;
+    border-left-color: transparent;
+    background-color: transparent;
+  }
+  75% {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: gray;
+    background-color: green;
+  }
+  100% {
+    border-top-color: gray;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    background-color: transparent;
+  }
+}
+
+@keyframes border-animation {
+  0% {
+    border-top-color: gray;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    background-color: transparent;
+  }
+  25% {
+    border-top-color: transparent;
+    border-right-color: gray;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    background-color: green;
+  }
+  50% {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: gray;
+    border-left-color: transparent;
+    background-color: transparent;
+  }
+  75% {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: gray;
+    background-color: green;
+  }
+  100% {
+    border-top-color: gray;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    background-color: transparent;
+  }
+}
+/*# sourceMappingURL=style.css.map */
